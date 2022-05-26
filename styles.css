@@ -1,0 +1,145 @@
+
+* {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    background-color: white;
+}
+
+/* **************************** First Container **************************** */
+
+.description_container {
+    background-color: #1F2937;
+    height: 300px;
+    width: 80vw;
+    padding: 50px;
+    padding-top: 10px;
+    margin: auto;
+}
+
+.navigation_bar {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header_links {
+    color: #e5e7eb;
+    display: flex; 
+}
+
+.header_links * {
+    padding: 10px;
+}
+
+.website_description {
+    display: flex;
+    justify-content: center;
+}
+
+.website_info {
+    color: white;
+    width: 300px;
+    padding: 15px;
+    border: 1px solid white;
+}
+
+.image_placeholder {
+    background-color: #e5e7eb;
+    width: 300px;
+    height: 200px;
+    border: 1px solid white;
+}
+
+button {
+    color: white;
+    background-color: #3882f6;
+    border: none;
+    border-radius: 3px;
+    width: 60px;
+}
+/* **************************** Second Container **************************** */
+
+.info_container {
+    height: 300px;
+    width: 80vw;
+    padding: 30px;
+    margin: auto;
+    text-align: center;
+    height: 250px;
+}
+
+.image_boxes {
+    display: flex;
+    justify-content: center;
+}
+
+.box {
+    width: 80px;
+    height: 80px;
+    border: 1px solid #3882f9;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.image_boxes p {
+    width: 80px;
+    height: 80px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/* **************************** Third Container **************************** */
+
+.quote_container {
+    height: 200px;
+    width: 80vw;
+    padding: 30px;
+    margin: auto;
+    text-align: center;
+    background-color: #e5e7eb;
+    font-size: 36px;
+    font-style: italic;
+}
+
+/* **************************** Fourth Container **************************** */
+
+.signup_container {
+    height: 100px;
+    width: 60vw;
+    padding: 30px;
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+    background-color: #3882f6;
+    color: white;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.signup_container .content {
+    padding-left: 60px;
+    margin-left: 60px;
+}
+
+.signup_container .button_div {
+    border: 1px solid white;
+    margin:auto;    
+}
+
+/* **************************** Footer Container **************************** */
+
+.footer_container {
+    background-color: #1F2937;
+    width: 85vw;
+    height: 40px;
+    margin: auto;
+    margin-top: 50px;
+    padding: 0;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+}
+
