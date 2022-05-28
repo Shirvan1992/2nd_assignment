@@ -30,7 +30,10 @@ body {
     color: #e5e7eb;
     display: flex; 
 }
-
+a {
+    text-decoration: none !important;
+    color: white;
+}
 .header_links * {
     padding: 10px;
 }
