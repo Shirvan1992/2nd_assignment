@@ -31,7 +31,7 @@ body {
     display: flex; 
 }
 a {
-    text-decoration: none !important;
+    text-decoration: none;
     color: white;
 }
 .header_links * {
